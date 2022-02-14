@@ -15,7 +15,7 @@
     border-radius: 12px;
 }
 
-.hero > button{
+.hero > a > button{
     position: absolute;
     top: 63%;
     left: 5.2rem;
