@@ -4,7 +4,364 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="https://rapidui.netlify.app/styles/main.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./styles/homepage.css" />
+
     <title>Rapid Store | online shopping</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar">
+      <a class="navbar-logo" href="#">
+        <img src="../assets/img/rapidstore.png" alt="rapid store" />
+      </a>
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search" />
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="btn btn-primary">Login</a>
+        </li>
+        <li>
+          <a href="#"
+            ><span class="badge-icon">
+              <span class="badge red">20+</span>
+              <i class="far fa-heart"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><span class="badge-icon">
+              <span class="badge blue">5</span>
+              <i class="far fa-shopping-cart"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="homepage-main">
+      <div class="hero">
+        <img src="./assets/img/rapidstore-poster.png" alt="" />
+        <button class="btn btn-primary">Shop Now</button>
+      </div>
+
+      <!---------- why choose us ------>
+
+      <section class="feature-main">
+        <h2>Why choose us</h2>
+        <div class="feature-container">
+          <div class="feature box-shadow">
+            <i class="fal fa-shipping-fast"></i>
+            <p>Fastest Delivery</p>
+          </div>
+          <div class="feature box-shadow">
+            <i class="fal fa-badge-percent"></i>
+            <p>Best prices and offers</p>
+          </div>
+          <div class="feature box-shadow">
+            <i class="fal fa-handshake"></i>
+            <p>Quality assurance</p>
+          </div>
+          <div class="feature box-shadow">
+            <i class="fa fa-rupee"></i>
+            <p>Free Shipping Above Rs. 349</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ----- featured categories ------ -->
+      <section class="category">
+        <h2 class="justify-center m-2 mb-4">Featured categories</h2>
+        <div class="card-container">
+          <div class="card-vertical category-card">
+            <img src="./assets/img/laptop.png" alt="card" loading="lazy" />
+            <div class="card-body">
+              <h4 class="justify-center m-2">Laptops/PCs</h4>
+            </div>
+            <div class="card-footer justify-center">
+              <button class="btn btn-primary">View Deals</button>
+            </div>
+          </div>
+          <div class="card-vertical category-card">
+            <img src="./assets/img/headphone.jpeg" alt="card" loading="lazy" />
+            <div class="card-body">
+              <h4 class="justify-center m-2">Headphones/Speakers</h4>
+            </div>
+            <div class="card-footer justify-center">
+              <button class="btn btn-primary">View Deals</button>
+            </div>
+          </div>
+          <div class="card-vertical category-card">
+            <img src="./assets/img/game.jpg" alt="card" loading="lazy" />
+            <div class="card-body">
+              <h4 class="justify-center m-2">Gaming</h4>
+            </div>
+            <div class="card-footer justify-center">
+              <button class="btn btn-primary">View Deals</button>
+            </div>
+          </div>
+          <div class="card-vertical category-card">
+            <img src="./assets/img/headphone.jpeg" alt="card" loading="lazy" />
+            <div class="card-body">
+              <h4 class="justify-center m-2">Headphones/Speakers</h4>
+            </div>
+            <div class="card-footer justify-center">
+              <button class="btn btn-primary">View Deals</button>
+            </div>
+          </div>
+          <div class="card-vertical category-card box-shadow">
+            <img src="./assets/img/laptop.png" alt="card" loading="lazy" />
+            <div class="card-body">
+              <h4 class="justify-center m-2">Laptops/PCs</h4>
+            </div>
+            <div class="card-footer justify-center">
+              <button class="btn btn-primary">View Deals</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- popular Purchase -->
+
+      <section>
+        <h2 class="justify-center mt-6 mb-4">Polular Purchase</h2>
+
+        <div class="card-container">
+          <div class="card-vertical popular-purchase hover-box-shadow">
+            <span class="cancel-btn"><i class="fas fa-times"></i></span>
+            <div class="card-badge badge green">Trending</div>
+            <img src="./assets/img/headphone.jpeg" alt="card" />
+            <div class="card-body">
+              <h4 class="card-header">ASUS ROG St...</h4>
+              <p class="card-price">
+                <span class="price">₹96,990 </span>
+                <strike>₹1,36,990</strike>
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn-card">
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="btn-card"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+
+          <div class="card-vertical popular-purchase hover-box-shadow">
+            <span class="cancel-btn"><i class="fas fa-times"></i></span>
+            <div class="card-badge badge red">Sale</div>
+            <img src="./assets/img/headphone.jpeg" alt="card" />
+            <div class="card-body">
+              <h4 class="card-header">ASUS ROG St...</h4>
+              <p class="card-price">
+                <span class="price">₹96,990 </span>
+                <strike>₹1,36,990</strike>
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn-card">
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="btn-card"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+
+          <div class="card-vertical popular-purchase hover-box-shadow">
+            <span class="cancel-btn"><i class="fas fa-times"></i></span>
+            <div class="card-badge badge blue">Latest</div>
+            <img src="./assets/img/laptop.png" alt="card" />
+            <div class="card-body">
+              <h4 class="card-header">ASUS ROG St...</h4>
+              <p class="card-price">
+                <span class="price">₹96,990 </span>
+                <strike>₹1,36,990</strike>
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn-card">
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="btn-card"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+
+          <div class="card-vertical popular-purchase hover-box-shadow">
+            <span class="cancel-btn"><i class="fas fa-times"></i></span>
+            <div class="card-badge badge green">Trending</div>
+            <img src="./assets/img/headphone.jpeg" alt="card" />
+            <div class="card-body">
+              <h4 class="card-header">ASUS ROG St...</h4>
+              <p class="card-price">
+                <span class="price">₹96,990 </span>
+                <strike>₹1,36,990</strike>
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn-card">
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="btn-card"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+
+          <div class="card-vertical popular-purchase hover-box-shadow">
+            <span class="cancel-btn"><i class="fas fa-times"></i></span>
+            <div class="card-badge badge yellow">Best Seller</div>
+            <img src="./assets/img/game.jpg" alt="card" />
+            <div class="card-body">
+              <h4 class="card-header">ASUS ROG St...</h4>
+              <p class="card-price">
+                <span class="price">₹96,990 </span>
+                <strike>₹1,36,990</strike>
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn-card">
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="btn-card"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+          <div class="card-vertical popular-purchase hover-box-shadow">
+            <span class="cancel-btn"><i class="fas fa-times"></i></span>
+            <div class="card-badge badge green">Trending</div>
+            <img src="./assets/img/game.jpg" alt="card" />
+            <div class="card-body">
+              <h4 class="card-header">ASUS ROG St...</h4>
+              <p class="card-price">
+                <span class="price">₹96,990 </span>
+                <strike>₹1,36,990</strike>
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn-card">
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="btn-card"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+          <div class="card-vertical popular-purchase hover-box-shadow">
+            <span class="cancel-btn"><i class="fas fa-times"></i></span>
+            <div class="card-badge badge red">Sale</div>
+            <img src="./assets/img/laptop.png" alt="card" />
+            <div class="card-body">
+              <h4 class="card-header">ASUS ROG St...</h4>
+              <p class="card-price">
+                <span class="price">₹96,990 </span>
+                <strike>₹1,36,990</strike>
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn-card">
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="btn-card"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+          <div class="card-vertical popular-purchase hover-box-shadow">
+            <span class="cancel-btn"><i class="fas fa-times"></i></span>
+            <div class="card-badge badge green">Trending</div>
+            <img src="./assets/img/laptop.png" alt="card" />
+            <div class="card-body">
+              <h4 class="card-header">ASUS ROG St...</h4>
+              <p class="card-price">
+                <span class="price">₹96,990 </span>
+                <strike>₹1,36,990</strike>
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn-card">
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="btn-card"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+
+          <div class="card-vertical popular-purchase hover-box-shadow">
+            <span class="cancel-btn"><i class="fas fa-times"></i></span>
+            <div class="card-badge badge red">Sale</div>
+            <img src="./assets/img/headphone.jpeg" alt="card" />
+            <div class="card-body">
+              <h4 class="card-header">ASUS ROG St...</h4>
+              <p class="card-price">
+                <span class="price">₹96,990 </span>
+                <strike>₹1,36,990</strike>
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn-card">
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="btn-card"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- --- footer ---- -->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer__item">
+          <h4>Account</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="#">My Account</a></li>
+            <li class="footer__list-item"><a href="#">Wishlist</a></li>
+            <li class="footer__list-item"><a href="#">Track Order</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h4>Help</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="#">FAQ</a></li>
+            <li class="footer__list-item"><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h4>Contact Us</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="https://www.linkedin.com/in/vishalkumar28/">LinkedIn</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="https://github.com/vleads">Github</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="https://twitter.com/vishalk01234">Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-rights">&copy; 2022 Rapid Store. All Rights Reserved</p>
+    </footer>
+
+    <script src="https://rapidui.netlify.app/js/main.js"></script>
+  </body>
 </html>
