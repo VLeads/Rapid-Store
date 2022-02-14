@@ -98,3 +98,19 @@
     font-weight: 600;
 }
 
+.filter-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-heading > .btn{
+    height: 3rem;
+    /* width: 4rem */
+    align-items: center;
+    line-height: 2px;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+
