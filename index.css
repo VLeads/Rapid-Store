@@ -5,6 +5,7 @@
     --dark-blue: #172337;
     --grey: grey;
     --hover-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --red: #ee1010;
 }
 
 *{
@@ -31,10 +32,18 @@
     margin-bottom: 4rem;
 }
 
+.bold{
+    font-weight: 600;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
 .sub-nav{
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem 3.5rem;
+    padding: 0.3rem 3.5rem;
     font-size: 1.3rem;
     border-bottom: 0.8px solid #e3e3e3c7;
     color: var(--dark-grey);
