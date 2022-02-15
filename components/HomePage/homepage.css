@@ -2,7 +2,7 @@
 .homepage-main{
     width: 100%;
     padding: 2rem 3rem;
-    padding-top: 11rem
+    padding-top: 2rem
 }
 
 .hero{
@@ -15,7 +15,7 @@
     border-radius: 12px;
 }
 
-.hero > button{
+.hero > a > button{
     position: absolute;
     top: 63%;
     left: 5.2rem;

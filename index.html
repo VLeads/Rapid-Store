@@ -21,14 +21,38 @@
     <!-- styles -->
     <link rel="stylesheet" href="https://rapidui.netlify.app/styles/main.css" />
     <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./styles/homepage.css" />
+    <link rel="stylesheet" href="./components/HomePage/homepage.css" />
 
-    <title>Rapid Store | online shopping</title>
+    <title>Shop | Rapid Store</title>
   </head>
   <body>
+    <div class="sub-nav">
+      <div class="left">
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Order Tracking</a>
+      </div>
+      <div class="right">
+        <span>Need help? Call Us: 000 000 0000</span>
+        <a href="#">Contact Us</a>
+        <a href="https://github.com/vleads"
+          ><i class="fab fa-github" aria-hidden="true"></i
+        ></a>
+        <a href="https://twitter.com/vishalk01234"
+          ><i class="fab fa-twitter" aria-hidden="true"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/vishalkumar28/"
+          ><i class="fab fa-linkedin" aria-hidden="true"></i
+        ></a>
+        <a href="mailto:leader.vishalkumar@gmail.com"
+          ><i class="fas fa-envelope" aria-hidden="true"></i
+        ></a>
+      </div>
+    </div>
+
     <nav class="navbar">
       <a class="navbar-logo" href="#">
-        <img src="../assets/img/rapidstore.png" alt="rapid store" />
+        <img src="./assets/img/rapidstore.png" alt="rapid store" />
       </a>
       <div class="search-box">
         <i class="fas fa-search"></i>
@@ -60,7 +84,10 @@
     <main class="homepage-main">
       <div class="hero">
         <img src="./assets/img/rapidstore-poster.png" alt="" />
-        <button class="btn btn-primary">Shop Now</button>
+
+        <a href="./components/ProductPage/productpage.html"
+          ><button class="btn btn-primary">Shop Now</button></a
+        >
       </div>
 
       <!---------- why choose us ------>
@@ -325,7 +352,7 @@
       </section>
     </main>
 
-    <!-- --- footer ---- -->
+    <!-- ---------- footer ---------- -->
 
     <footer class="footer">
       <div class="footer-container">
