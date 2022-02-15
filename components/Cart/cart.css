@@ -12,6 +12,10 @@
     grid-area: sub-nav;
 }
 
+.card-footer > .btn{
+    font-weight: 500;
+}
+
 .navbar{
     grid-area: navbar;
     margin-bottom: 2rem;
@@ -28,9 +32,6 @@
     grid-gap: 1.5rem;
     padding: 0;
     justify-content: center;
-    /* display: flex;
-    justify-content: center;
-    flex-wrap: wrap; */
 }
 
 .cancel-btn > i{
@@ -123,6 +124,7 @@ input:focus{
 
 .order{
     width: 100%;
+    padding: 1.5rem;
 }
 
 .footer{
