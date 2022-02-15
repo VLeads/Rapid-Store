@@ -95,7 +95,8 @@
 .footer-container{
     display: flex;
     gap: 35rem;
-    padding-top: 4rem;  
+    padding-top: 4rem; 
+    flex-wrap: wrap;
 }
 
 .footer__item{
