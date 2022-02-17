@@ -27,7 +27,7 @@
     border: 1px solid #7575f1
 }
 
-.feature-main{
+.feature-main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,7 @@
     margin-bottom: 4rem;
 }
 
-.feature-main > h2{
+.feature-main > h2 {
     margin: 2rem;
     padding-bottom: 1.5rem;
     border-bottom: 2px solid var(--black);
@@ -60,10 +60,10 @@
 }
 
 .feature > i{
-    font-size:4.5rem;
+    font-size: 4.5rem;
     color:var(--primary-color);
     margin-right: 1.5rem;
-    margin-left: 1rem
+    margin-left: 1rem;
 }
 
 .feature > p {
@@ -91,3 +91,5 @@
 .popular-purchase{
     height: 31.5rem;
 }
+
+
